@@ -1,12 +1,13 @@
 <?php
 
 class Client{
-	
+	#Attributs
 	private $nom;
 	private $adresse;
 	private $contact;
 	private $age;
 	
+	#Methodes
 	//le constructeur de la classe
 	function __construct($nom, $adresse, $contact, $age = 0){
 		
